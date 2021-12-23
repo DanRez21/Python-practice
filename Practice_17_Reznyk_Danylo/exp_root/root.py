@@ -1,4 +1,6 @@
 def root2(n):
     return n**(1/2)
 def root3(n):
-    return n**(1/3)
+    if n>=0:
+        return n**(1/3)
+    return -(-n)**(1/3)
